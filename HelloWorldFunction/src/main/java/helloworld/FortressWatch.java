@@ -30,10 +30,10 @@ import java.util.regex.Pattern;
 public class FortressWatch implements RequestHandler<Object, Object> {
 
     //excluded the credentials.
-    final String accessKey = "AKIATETUL4TDGWOYNGL6";
-    final String secretKey = "QltknEYceqmqTwEsbnPrQdvKSjdstOrWPhznbFbP";
-    final String bucket = "hkbu.17228522";
-    final String region = "us-east-1";  /// change it if your selected region is different
+    final String accessKey = "";
+    final String secretKey = "";
+    final String bucket = "";
+    final String region = "";  /// change it if your selected region is different
     String price;
     @Override
     public Object handleRequest(Object o, Context context) {

@@ -19,10 +19,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class PriceDiff implements RequestHandler<Object, Object> {
-    final String accessKey = "AKIATETUL4TDGWOYNGL6";
-    final String secretKey = "QltknEYceqmqTwEsbnPrQdvKSjdstOrWPhznbFbP";
-    final String bucket = "hkbu.17228522";
-    final String region = "us-east-1";  /// change it if your selected region is different
+    final String accessKey = "";
+    final String secretKey = "";
+    final String bucket = "";
+    final String region = "";  /// change it if your selected region is different
     String hktvmallprice;
     String fortressprice;
     String cheaperCompany;
